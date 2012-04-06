@@ -1,0 +1,7 @@
+{% extends "Default/layout.html.twig" %}
+
+{% block title %}{{ parent() }} - {{ 'home' | trans }}{% endblock %}
+
+{% block maincontent %}
+    {{ 'hello_username' | trans({"%username%": username}) }}
+{% endblock %}

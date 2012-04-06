@@ -1,0 +1,32 @@
+framework:
+  env:              dev
+  locale_fallback:  en
+  host:             cobalt.dev:8888
+
+mailer:
+  host:           smtp.gmail.com
+  port:           456
+  username:       bot_employness@balloonup.com
+  password:       ptcsmv69
+  encryption:     ssl
+  auth_mode:      login
+
+db:
+  prod:
+    driver:       pdo_mysql
+    dbname:       leadmgmt_prod
+    host:         localhost
+    user:         root
+    password:     root
+  dev:
+    driver:       pdo_mysql
+    dbname:       leadmgmt_dev
+    host:         localhost
+    user:         root
+    password:     root
+  test:
+    driver:       pdo_mysql
+    dbname:       leadmgmt_test
+    host:         localhost
+    user:         root
+    password:     root

@@ -1,0 +1,32 @@
+framework:
+  env:              dev
+  locale_fallback:  en
+  host:             yourdomain.com
+
+mailer:
+  host:           smtp.gmail.com
+  port:           456
+  username:       youremail@gmail.com
+  password:       yourpassword
+  encryption:     ssl
+  auth_mode:      login
+
+db:
+  prod:
+    driver:       yourdriver
+    dbname:       yourdbbame_prod
+    host:         localhost
+    user:         user
+    password:     pass
+  dev:
+    driver:       yourdriver
+    dbname:       yourdbbame_dev
+    host:         localhost
+    user:         user
+    password:     pass
+  test:
+    driver:       yourdriver
+    dbname:       yourdbbame_test
+    host:         localhost
+    user:         user
+    password:     pass

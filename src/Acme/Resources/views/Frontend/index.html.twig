@@ -1,0 +1,11 @@
+{% extends "Default/layout.html.twig" %}
+
+{% block title %}{{ parent() }} - {{ 'home' | trans }}{% endblock %}
+
+{% block maincontent %}
+    <div class="row">
+        <span class="well span12">{{ 'hello' | trans }} world!</span>
+        <span class="span6 center"><a href="{{ path('hello', {username: "totor"}) }}">Hello example</a></span>
+        <span class="span6 center"><a href="{{ path('admin') }}">Backend controller</a></span>
+    </div>
+{% endblock %}

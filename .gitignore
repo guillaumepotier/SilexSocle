@@ -1,0 +1,6 @@
+app/cache/*
+app/logs/*
+vendor/
+web/assets/*
+*.log
+.DS_Store

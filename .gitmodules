@@ -1,0 +1,6 @@
+[submodule "web/assets/twitter"]
+	path = web/assets/twitter
+	url = https://github.com/twitter/bootstrap.git
+[submodule "web/assets/jQuery"]
+	path = web/assets/jQuery
+	url = git://github.com/jquery/jquery.git
